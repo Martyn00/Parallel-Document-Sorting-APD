@@ -1,0 +1,33 @@
+Ionescu Martin 333CA
+
+Pentru rezolvarea temei am urmat exact pasii dati in enunt:
+
+1. Am parsat datele de intrare (argumentele si fisierul de intrare)
+
+2. Am creat clasa Pack ce reprezinta un interval din fisier ce trebuie mapat:
+    -filename
+    -start
+    -end
+    -result( map-ul rezultat)
+    -maximalWords(string-urile ca lungime maxima)
+
+3. Am creat MapSolver ce foloseste in preluarea datelor din fisier parsarea lor,
+   si punearea intr-un map al cuvintelor gasite. mapSolver este o clasa ce extinde
+   callable, astfel returnand un Pack. Sunt practic facute atatea mapSolvere
+   cate pachete sunt calculate.
+
+4. Callable-urile sunt executate in paralel de un executorService.
+
+5. Am creat FileData ce are ca field-uri datele de iesire ale programului:
+    -filename
+    -rank
+    -maximalWord
+
+
+6. Pasul urmator a fost crearea clasei ReduceSolver (extinde Callable)ce reduce 
+   toate map-urile in unul singur ce le contine pe toate, plus calculeaza numarul 
+   de cuvinte maximale si dimensiunea acestora. Aceste date sunt la final returnate 
+   prin FileData ce va fi intr-un final scris in fisierul de iesire.
+   (Se vor crea numarul de fisiere instante de ReduceSolver)
+
+ 

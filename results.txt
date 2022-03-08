@@ -1,0 +1,25 @@
+Timp de start: joi 9 decembrie 2021, 21:04:07 +0200
+V1.0
+Se ruleaza testul 0 cu 1 worker(i)
+Se ruleaza testul 0 cu 2 worker(i)
+Se ruleaza testul 0 cu 3 worker(i)
+Se ruleaza testul 0 cu 4 worker(i)
+Se ruleaza testul 1 cu 1 worker(i)
+Se ruleaza testul 1 cu 2 worker(i)
+Se ruleaza testul 1 cu 3 worker(i)
+Se ruleaza testul 1 cu 4 worker(i)
+Se ruleaza testul 2 cu 1 worker(i)
+Se ruleaza testul 2 cu 2 worker(i)
+Se ruleaza testul 2 cu 3 worker(i)
+Se ruleaza testul 2 cu 4 worker(i)
+Se ruleaza testul 3 cu 1 worker(i)
+Se ruleaza testul 3 cu 2 worker(i)
+Se ruleaza testul 3 cu 3 worker(i)
+Se ruleaza testul 3 cu 4 worker(i)
+Se ruleaza testul 4 cu 1 worker(i)
+Se ruleaza testul 4 cu 2 worker(i)
+Se ruleaza testul 4 cu 3 worker(i)
+Se ruleaza testul 4 cu 4 worker(i)
+Teste corecte: 20/20
+
+TOTAL: 30/30
